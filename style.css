@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #072a39;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #12b88f;
+}
+
+/* Subscription Div */
+.subscription-container{
+    background-color: #1e3053;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    color: #15d3a4;
+    border: 2px solid #12b88f;
+}
+
+.subscription-container h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Subscription Form */
+.subscription-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+/* Subscription Form Input */
+.subscription-form input[type="email"]{
+    padding: 12px;
+    border: 1px solid #12b88f;
+    border-radius: 5px;
+    background-color: #1b3a4b;
+    color: #fff;
+}
+
+/* placeholder css */
+.subscription-form input[type="email"]::placeholder {
+    color: #02ffc4;
+    opacity: 0.8;
+}
+
+/* Subscription form Button */
+.subscription-form button{
+    padding: 12px;
+    background-color: #5effd9;
+    color: #072a39;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info-text{
+    font-size: 15px;
+    color: #15d3a4;
+}
