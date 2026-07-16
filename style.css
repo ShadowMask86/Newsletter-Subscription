@@ -65,6 +65,11 @@ body{
     cursor: pointer;
 }
 
+.subscription-form button:hover{
+    background-color: #2edbb6;
+    color: #072a39;
+}
+
 .info-text{
     font-size: 15px;
     color: #15d3a4;
